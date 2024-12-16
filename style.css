@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    font-family: "Montserrat";
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+} 
+.header ul{
+    display: flex;
+    gap: 35px;
+    font-size: 24px;
+    list-style: none;
+}
+.btn-Login{
+    background-color: #204E51;
+    color: white;
+    padding: 15px 45px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.btn-Sign{
+    background-color: white;
+    padding: 13px 45px;
+    border: 2px solid  #204E51 ;
+    border-radius: 8px;
+    font-size: 15px;
+    
+}
+.hero{
+    padding: 40px 100px;
+    color: white;
+    text-align: center;
+    background-color: navy;
+    height: 570px;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)),
+    url(image/WhatsApp\ Image\ 2024-10-26\ at\ 15.14.39_2ca91edb.jpg);
+    background-size: cover;
+}
+
+.hero p{
+    padding-bottom: 10px;
+}
+.hero h1{
+    padding-top: 40px;
+    font-size: 80px;
+ 
+}
+
+.passion-parent{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 90px;   
+
+}
+.passion-right img{
+   width: 450px;
+   height: 550px;
+   border-radius:5px ;
+}
+
+.passion-left h1{
+    font-size: 60px;
+}
+.passion-left p{
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+.passion-left{
+    width: 500px;
+    
+}
+.passion-right{
+    position: relative;
+}
+
+.passion-right h2{
+    background-color: white;
+    width: 130px;
+    padding: 30px;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 50px;
+    left: 110px;
+
+
+}
+.color-group{
+    background-color: whitesmoke;
+}
+.services{
+    text-align: center;
+    margin: 60px 0;
+    
+    
+}
+.services p{
+    font-size: 20px;
+    margin: 20px 305px;
+}
+.services  h1{
+    font-size:70px ;
+}
+
+.services-parent{
+    display: flex;
+    justify-content: center;
+
+}
+.services1{
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius:12px ;
+    border: 1px solid white;
+    box-shadow: 0px 3px 6px rgb(155,150,150);
+
+}
+.services1 h1{
+    padding-top: 65px;
+    font-size: 23px;
+    color: #204E51;
+    
+}
+.services1 img{
+padding-top: 30px;
+}
+
+
+
+.featured{
+    margin: 60px 0;
+    margin-left: 35px;
+    
+    
+}
+.featured p{
+    font-size: 20px;
+    margin: 20px 30px;
+    margin-left: 10px;
+}
+.featured h1{
+    font-size:65px ;
+    color: #204E51;
+} 
+.featured h2{
+    font-size:30px ;
+    color: #204E51;
+    margin-left: 10px;
+} 
+
+.featured-parent{
+display: flex;
+justify-content: space-between;
+} 
+
+
+
+.product{
+    text-align: center;
+    margin: 60px 0;
+    
+    
+}
+
+
+.product h1{
+    font-size:70px ;
+    color: #204E51;
+    padding-top: 15px;
+}
+.product1 h1{
+    font-size:40px ;
+    color: #204E51;
+    padding-top: 15px;
+}
+.product1{
+    width: 250px;
+    height: 450px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px rgb(155,150,150);
+}
+.product1 img{
+    border-radius: 10px;
+    margin: 25px 29px;
+}
+.product-parent{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.color-see{
+    color: #204E51;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.sustain{
+    height: 400px;
+    color: white;
+    padding-top: 140px;
+    padding-left: 90px;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)),
+    url(image/WhatsApp\ Image\ 2024-10-26\ at\ 15.14.39_2ca91edb.jpg);
+    background-size: cover;
+}
+
+.sustain h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.benefit-parent{
+ 
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 70px;
+}
+.benefit-left{
+    width: 400px;
+}
+.benefit-left h1{
+    font-size: 60px;
+    margin-bottom: 15px;
+    color: #204E51;
+}
+.benefit-left p{
+    margin-bottom: 15px;
+
+}
+.benefit-right{
+    width: 600px;
+    height: 650px;
+    background-color:#204E51;
+    border-radius: 20px;
+    color: white; 
+    
+}
+
+.you{
+    display: flex;
+    gap: 30px;
+    margin: 50px ;
+}
+.you p{
+    padding-top: 10px;
+}
+.you h1{
+    padding-top: 10px;
+}
+
+.title{
+    text-align: center;
+
+}
+.review{
+    width: 100%;
+    height: 400px;
+    background-color: #204E51;
+    border-radius: 20px;
+}
+
+.review-parent{
+    display: grid;
+    grid-template-columns: 50px 800px 50px;
+    gap: 50px;
+    justify-content: center;
+
+}
+.review-parent img{
+    margin-top: 250px;
+}
+.review img{
+    margin-top: 80px;
+    margin-left: 40px;
+    border-radius: 50px;   
+}
+.review{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+.madeline-right{
+    margin-top: 70px;
+    margin-left: 15px;
+}
+.madeline-right h3{
+    margin-bottom: 20px;
+    font-size: 30px;
+
+}
+.madeline-right h6{
+    color: gray;
+
+}
+.madeline-right p{
+    margin-top: 20px;
+    margin-right: 50px;
+   
+}
+.star img{
+    margin: 10px;
+   
+}
+.main-last{
+    display: flex;
+    justify-content: space-between;
+    background-color: #204E51;
+    color: white;
+}
+.last-left{
+    margin-left: 60px;
+    margin-top: 100px;
+  
+}
+.last-left h1{
+    margin-bottom: 20px;
+}
+.last-right{
+    margin-top: 100px;
+    margin-right: 100px;
+}
+.last-left img{
+    margin-top: 20px;
+    margin-left: 30px;
+    
+}
+.last-right ul{
+    list-style: none;
+}
+.pages {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+ 
+
+.page{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    font-size: 14px;
+  
+}
+
+@media screen and (max-width:600px) {
+    .header ul{
+        display: none;
+
+    }
+    .btn{
+        display: none;
+    }
+    .header i{
+        font-size: 40px;
+    }
+    .header{
+        padding: 20px;
+
+    }
+    .header h1{
+        font-size:25px ;
+    }
+    .hero h1{
+        font-size: 30px;
+    }
+    .hero{
+        padding: 15px;
+    }
+    .hero p{
+        margin: 30px 0px;
+    }
+    .btn-Login{
+        margin-bottom: 30px;
+    }
+    .passion-parent{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .passion-left,.passion-right{
+        width: 300px;
+    }
+    .passion-right img{
+        width: 300px;
+    }
+    .passion-left h1{
+        font-size: 30px  ;
+    }
+    
+    .passion-right h2{
+        left:45px;
+        bottom: 5px;
+    }
+    .services h1{
+        font-size: 38px;
+    }
+    .services p{
+        margin: 10px;
+    }
+    .services-parent{
+        flex-direction: column;
+        margin-right: 50px;
+    }
+  
+    .product h1{
+        font-size:35px ;
+    }
+    .product p{
+        margin: 10px;
+    }
+    .product-parent{
+        flex-direction: column;
+        margin-left: 60px;
+    }
+    .sustain h1{
+       font-size:25px ;
+    }
+    .sustain{
+        padding: 20px;
+    }
+    .benefit-parent{
+        flex-direction: column;
+        padding: 0px;
+        margin: 20px;
+
+    }
+    .benefit-left,.benefit-right{
+        width: 350px;
+    }
+    .benefit-left h1{
+        font-size:40px ;
+
+    }
+  
+    .product h1{
+        font-size:40px ;
+    }
+
+    .featured-parent{
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px;
+    }
+    .featured img{
+        width: 340px;
+        margin-bottom: 20px;
+    }
+    .review-parent{
+        grid-template-columns: 10px 250px 10px;
+    }
+    .madeline-right{
+        height: 200px;
+       
+    } 
+    .madeline-right img{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .madeline-left img{
+        margin-top: 150px;
+        width: 90px;
+        height: 90px;
+    }
+    .madeline-right{
+        margin-top: 20px;
+        margin-right: 0px;
+        margin-left: 10px;
+        gap: 10px;
+    }
+    .madeline-right p{
+        font-size: 12px;
+        margin: 10px 0px;
+    }
+    .madeline-right h1{
+        font-size: 10px;
+    }
+
+
+  
+    
+}
+
